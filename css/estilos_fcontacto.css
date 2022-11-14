@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: powderblue;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+h2{
+    font-family: ChinaOne;
+    color: #b60112;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: rgb(203, 32, 32);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+#boton:hover{
+    cursor: pointer;
+    background: #fff;
+    color: black;
+}
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}

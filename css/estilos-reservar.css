@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    margin: 0;
+    background-color: #fdddca;
+}
+.form-reservas{
+    width: 95%;
+    max-width: 500px;
+    background: grey;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+}
+.form-title{
+    font-family: ChinaOne;
+    color: #b60112;
+    margin-top: 0;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 15px;
+}
+#nota{
+    padding: 15px;
+}
+.form--label .form__input{
+    display: block;
+}
+.form--label{
+    width: 30%;
+}
+.form__input{
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+}
+.container--flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.form--submit{
+    width: 100%;
+    background: rgb(12, 218, 12);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.form--submit:hover{
+    cursor: pointer;
+    background: #fff;
+    color: black;
+}

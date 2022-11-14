@@ -1,0 +1,106 @@
+body{
+    color: #fff;
+    background-color: #5dc1b9;
+    text-shadow: none;
+}
+/*
+img{
+    width: 200px;
+    height: 200px;
+}
+*/
+@font-face {
+    font-family: ChinaOne;
+    src: url(ChinaOne.ttf);
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column-2.carta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+}
+.plato-carta{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+}
+.img-plato-carta{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+}
+.img-plato-carta img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+}
+.title-plato-carta{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+}
+.wrap-title-section h2{
+    color: #b60112;
+    font-family: ChinaOne;
+}
+.title-plato-carta h4{
+    color: #b60112;
+    font-family: ChinaOne;
+}
+.precio-plato-carta{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    font-weight: bolder;
+}
+@media (max-width:680px){
+    .column-2.carta{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.pcontenedor{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.parallax{
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/menu_imagenes/banner_auto_x2_colored_toned_light_ai.jpg);
+    background-size: 200%;
+    height: 100vh;
+    animation: movimiento 10s infinite linear alternate;
+}
+.rrss-element-footer img{
+    width: 35px;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+.descripcion{
+    width: 40%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 15px;
+}.descripcion h1{
+    color: #b60112;
+    font-family: ChinaOne;
+}
+@media (max-width:680px){
+    .descripcion{
+        width: 60%;
+    } 
+}
