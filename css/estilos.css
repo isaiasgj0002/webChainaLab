@@ -2,7 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a{
+    color: #fff;
+}
 @font-face {
     font-family: ChinaOne;
     src: url(ChinaOne.ttf);

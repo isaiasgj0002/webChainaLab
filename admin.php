@@ -88,6 +88,7 @@ $reservas2 = "SELECT * FROM t_reservas";
 	<center>
 		<h2>Todas las reservas</h2>
 		<a href="limpiar.php" class="btn btn-warning">Limpiar</a>
+		<a href="registrousuario.php" class="btn btn-success">Registrar Usuario</a>
 	</center>
 	<table class="table">
 		<thead>

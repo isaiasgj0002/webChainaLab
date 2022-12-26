@@ -66,8 +66,8 @@ $reservas = "SELECT * FROM t_reservas WHERE contacto = '$contacto'";
 				<td data-titulo="contacto"><?php echo $row["contacto"];?></td>
 				<td data-titulo="estado"><?php echo $row["Estado"];?></td>
 				<td>
-					<a href="actualizar.php?id=<?php echo $row["id"];?>">Editar</a>
-					<a href="cancelar.php?id=<?php echo $row["id"];?>" class="table-item-link">Cancelar</a>
+					<a href="actualizar.php?id=<?php echo $row["id"];?>" style="color: #000 !important;">Editar</a>
+					<a href="cancelar.php?id=<?php echo $row["id"];?>" class="table-item-link" style="color: #000 !important;">Cancelar</a>
 				</td>
 			</tr>
 		</tbody>
@@ -92,9 +92,9 @@ $reservas = "SELECT * FROM t_reservas WHERE contacto = '$contacto'";
             <div class="text-element-footer element-footer">
                 <h5>Contactanos</h5>
                 <ul>
-                    <li>&#9993;chainalabcusco@gmail.com</li>
-                    <li>&#128222;+51 984 060 107</li>
-                    <li>&#128222;+51 962 213 653</li>
+                <a href="mailto:chainalabcusco@gmail.com" style="text-decoration: none;"><li>&#9993;chainalabcusco@gmail.com</li></a>
+                    <a href="https://wa.me/+51984060107" target="_blank" style="text-decoration: none;"><li>&#128222;+51 984 060 107</li></a>
+                    <a href="https://wa.me/+51962213653" target="_blank" style="text-decoration: none;"><li>&#128222;+51 962 213 653</li></a>
                 </ul>
             </div>
             <div class="rrss-element-footer element-footer">
